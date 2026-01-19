@@ -19,6 +19,7 @@ python .\toe.py load && python .\toe.py display
 ```
 You should then be able to launch `http://127.0.0.1:5000/` in your browser to view the data for accuracy and correct tagging. It will display Outlook Category and Jira TimeCode.
 
+### TOE Time Entry
 Step 1. Launch a simulated browser running on local port 9223
 ```pwsh
 & "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" `
