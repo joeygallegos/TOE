@@ -1,0 +1,47 @@
+{
+  "outlook": { "tz_id": "Central Standard Time" },
+  "work_window": { "start": "09:00", "end": "17:00", "slot_minutes": 30 },
+  "prompt_rules": {
+    "focus_title": "Focus Sprint",
+    "focus_match": "equals_ci",
+    "skip_if_any_event": true
+  },
+  "ui": { "remember_last": true, "snooze_minutes": 10 },
+  "categories": {
+    "Recurring": {
+      "jira_timecodes": ["General Activity"],
+      "color": "#60a5fa",
+      "outlook_category": "Recurring"
+    },
+    "Internal Support": {
+      "jira_timecodes": ["Internal Support, Projects"],
+      "color": "#a78bfa",
+      "outlook_category": "Internal Support"
+    },
+    "Project": {
+      "jira_timecodes": ["Internal Support, Projects"],
+      "color": "#34d399",
+      "outlook_category": "Project"
+    },
+    "Customer": {
+      "jira_timecodes": ["Customer Questions"],
+      "color": "#f59e0b",
+      "outlook_category": "Customer"
+    },
+    "Customer - Large": {
+      "jira_timecodes": ["Large Audit"],
+      "color": "#f5360b",
+      "outlook_category": "Customer Large Effort"
+    },
+    "Learning": {
+      "jira_timecodes": ["General Activity"],
+      "color": "#f472b6",
+      "outlook_category": "Learning"
+    },
+    "PTO or Sick": {
+      "jira_timecodes": ["PTO or Sick"],
+      "color": "#c1d2f6",
+      "outlook_category": "PTO or Sick"
+    }
+  }
+}

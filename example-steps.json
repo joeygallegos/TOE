@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "created": 1730731200,
+  "steps": [
+    {
+      "action": "goto",
+      "url": "https://google.com"
+    },
+    { "action": "click", "selector": "button[name=\"logWorkButton\"]" },
+
+    { "action": "fill", "selector": "#issuePickerInput", "value": "{{issue}}" },
+    { "action": "press", "selector": "#issuePickerInput", "key": "Enter" },
+
+    { "action": "click", "selector": "#description" },
+    { "action": "fill", "selector": "#description", "value": "{{subject}}" },
+
+    { "action": "click", "selector": "#started" },
+    { "action": "fill", "selector": "#started", "value": "{{date}}" },
+    { "action": "press", "selector": "#started", "key": "Enter" },
+
+    { "action": "click", "selector": "#timeSpentSeconds" },
+    { "action": "fill", "selector": "#timeSpentSeconds", "value": "{{duration_minutes}}m" },
+
+    { "action": "click", "selector": "button[name=\"submitWorklogButton\"]" }
+  ]
+}
